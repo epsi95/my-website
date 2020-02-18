@@ -1,0 +1,92 @@
+body{
+    color: #531D40;
+    margin: 0;
+}
+
+p{
+    font-family: 'Merriweather', sans-serif;
+    line-height: 2;
+    color: black;
+}
+
+.my-description{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-box{
+    background-color:#FFE3DC;
+    text-align: center;
+    position: relative;
+    padding: 100px 0 0 0;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.my-name{
+    margin-bottom: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+}
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.code-font{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 25%;
+    margin-top: 100px;
+    width: 200px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 25%;
+    bottom: 300px; 
+    width: 150px;
+}
+
+.about-me-description{
+    margin-bottom: 250px;
+}
+
+.ground{
+    width: 700px;
+    margin-bottom: -4px;
+}
+
+.balloon-image{
+    position: absolute;
+    left: calc(50% - 70.5px);
+    bottom: 200px;
+    animation-name: balloon-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes balloon-animation{
+    0% {bottom: 200px;}
+    50% {bottom: 210px;}
+    100% {bottom: 200px;}
+}
+
+.middle-box{
+    margin-top: 70px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar{
+    border-radius: 50%;
+}
