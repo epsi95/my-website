@@ -22,6 +22,14 @@ p{
     padding: 100px 0 0 0;
 }
 
+.image-holder{
+    background-color:#FFE3DC;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    margin-top: 50px;
+}
+
 h1{
     font-family: 'Montserrat', sans-serif;
 }
@@ -35,6 +43,7 @@ h1{
 
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: rgb(150, 29, 108);
 }
 
 .code-font{
@@ -89,4 +98,27 @@ h3{
 
 .avatar{
     border-radius: 50%;
+}
+
+.horizontal-rilar{
+    height: 0;
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 50px;
+}
+
+.spacing{
+    height: 50px;
+}
+
+.float-left{
+    float: left;;
+}
+
+.skill-details{
+    text-align: left;
+}
+
+.margin-right{
+    margin-right: 50px;
 }
