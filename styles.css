@@ -8,6 +8,10 @@ p{
     line-height: 2;
     color: black;
 }
+a{
+  text-decoration: none;
+  color: rgb(150, 29, 108);
+}
 
 .my-description{
     width: 50%;
@@ -19,7 +23,7 @@ p{
     background-color:#FFE3DC;
     text-align: center;
     position: relative;
-    padding: 100px 0 0 0;
+    padding: 70px 0 0 0;
 }
 
 .image-holder{
@@ -52,15 +56,15 @@ h3{
 
 .top-cloud{
     position: absolute;
-    right: 25%;
+    right: 150px;
     margin-top: 100px;
     width: 200px;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 25%;
-    bottom: 300px; 
+    left: 150px;
+    bottom: 300px;
     width: 150px;
 }
 
@@ -100,7 +104,7 @@ h3{
     border-radius: 50%;
 }
 
-.horizontal-rilar{
+.horizontal-ruler{
     height: 0;
     border-style: dotted none none none;
     border-width: 10px;
@@ -112,13 +116,80 @@ h3{
 }
 
 .float-left{
-    float: left;;
+    float: left;
 }
 
-.skill-details{
+.float-right{
+    float: right;
+}
+
+.text-align-left{
     text-align: left;
 }
 
 .margin-right{
     margin-right: 50px;
+}
+
+.margin-left{
+    margin-left: 50px;
+}
+
+.margin-bottom{
+  margin-bottom: 25px;
+}
+
+.bottom-box{
+  background-color:#FFE3DC;
+  padding: 70px 0 10px 0;
+  text-align: center;
+}
+
+.inline{
+  display: inline;
+}
+
+.contact-icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.contact-me{
+  margin: 0 70px;
+  height: 30px;
+}
+
+.copyrights{
+  color: rgb(150, 29, 108);
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #531d40 5%, #240d1c 100%);
+	background-color:#531d40;
+	border-radius:10px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:24px;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #240d1c 5%, #531d40 100%);
+	background-color:#240d1c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me-anchor:hover{
+  color: #e8b4a7;
 }
