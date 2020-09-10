@@ -3,6 +3,14 @@ let thisYear = Number(new Date().getFullYear())
 
 tNc.innerHTML = `© ${thisYear} Probhakar Sarkar`
 
+function sayHi() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", "https://peaceful-fortress-22849.herokuapp.com/hi", true);
+    xhttp.send();
+}
+
+sayHi()
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

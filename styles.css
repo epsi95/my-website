@@ -55,7 +55,7 @@ nav li a:hover {
     background-color: #FFE3DC;
     text-align: center;
     position: relative;
-    padding: 70px 0 0;
+    padding: 40px 0 0;
 }
 
 .top-cloud {
@@ -72,7 +72,7 @@ nav li a:hover {
 }
 
 .about-me-description {
-    margin-bottom: 250px;
+    margin-bottom: 350px;
 }
 
 .balloon-image {
@@ -326,6 +326,12 @@ h3 {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .middle-box {
+        width: 80%;
+    }
 }
 
 .avatar {
