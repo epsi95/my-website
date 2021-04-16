@@ -5,11 +5,17 @@ tNc.innerHTML = `© ${thisYear} Probhakar Sarkar`
 
 function sayHi() {
     var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            const data = JSON.parse(xhttp.response);
+            console.log(data);
+            const elm = document.getElementById('ttl_wb_visit');
+            elm.innerText = `(Visited ${data.totalVisitorCount} times, ${data.todayCount} visits today)`
+        }
+    };
     xhttp.open("GET", "https://peaceful-fortress-22849.herokuapp.com/hi", true);
     xhttp.send();
-    console.log(xhttp.response);
 }
-
 sayHi()
 
 var slideIndex = 1;
