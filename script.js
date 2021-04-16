@@ -7,6 +7,7 @@ function sayHi() {
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", "https://peaceful-fortress-22849.herokuapp.com/hi", true);
     xhttp.send();
+    console.log(xhttp.response);
 }
 
 sayHi()
