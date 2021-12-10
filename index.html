@@ -35,7 +35,8 @@
 
     <!-- start of middle box -->
     <div class="middle-box" id="about">
-        <img src="images/personal_photo_2.png" alt="profile_picture" class="avatar" width="200px">
+        <canvas id="profile-pic" width="200" height="200" class="avatar"></canvas>
+        <!-- <img src="images/personal_photo_2.png" alt="profile_picture" class="avatar" width="200px"> -->
         <h1>Hi.</h1>
         <p class="my-description">I am currenty working as a Senior Software Engineer at Nagarro. Coding helps me to express things that I can imagine. I am very passionate about solving real-world problems with the help of programming</p>
         <div class="spacing"></div>
@@ -219,6 +220,15 @@
     <!-- end of bottom box -->
 
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/rive-js@0.7.16/dist/rive.min.js"></script>
+    <script>
+        // autoplays the first animation in the default artboard
+        new rive.Rive({
+            src: './images/probi.riv',
+            canvas: document.getElementById('profile-pic'),
+            autoplay: true,
+        });
+    </script>
 </body>
 
 </html>
