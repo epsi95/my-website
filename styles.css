@@ -60,13 +60,13 @@ nav li a:hover {
 
 .top-cloud {
     position: absolute;
-    right: 150px;
-    margin-top: 100px;
+    right: 200px;
+    margin-top: 50px;
     width: 200px;
 }
 
 .my-name {
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     font-family: 'Sacramento', cursive;
     font-size: 5rem;
 }
@@ -78,7 +78,7 @@ nav li a:hover {
 .balloon-image {
     position: absolute;
     left: calc(50% - 70.5px);
-    bottom: 200px;
+    bottom: 400px;
     animation-name: balloon-animation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -98,8 +98,8 @@ nav li a:hover {
 
 .bottom-cloud {
     position: absolute;
-    left: 150px;
-    bottom: 300px;
+    left: 250px;
+    bottom: 400px;
     width: 150px;
 }
 
